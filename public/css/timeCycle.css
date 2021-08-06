@@ -1,0 +1,267 @@
+#alarm {
+    display: none;
+}
+
+.timeCycleController {
+    margin: 100px 0;
+}
+
+.timeCycle {
+    width: 85%;
+    margin: auto;
+    background: #fefefe;
+    box-shadow: -8px 8px 8px rgba(0,0,0,0.4);
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TimeCycledescriptionContainer h1, .TimeCycledescriptionContainer p,
+.TimeCycledescriptionContainer input, .timeCycleIcons, .showTime h1,
+.date p, .clock p, #time, .stopwatchButtonContainer button i, #timer, 
+.timerButtonContainer button, .optionsUnion div div button i, .containerOptionsHour 
+option, .buttonsOptions button, .optionsUnion div select, .optionsUnion h3,
+.containerOptionsMinute option, .containerOptionsSecond option, .song h4, 
+.theTimerFinished div, .theTimerFinished h4, .theTimerFinished button {
+    color: #333;
+}
+
+.TimeCycledescriptionContainer h1 {
+    margin: 20px 0;
+}
+
+.TimeCycledescriptionContainer p {
+    margin: 15px 0;
+}
+
+.TimeCycledescriptionContainer input {
+    border: none;
+    outline: none;
+    width: 30px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.TimeCycledescriptionContainer {
+    width: 40%;
+}
+
+.timeCycleIcons {
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px 5px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.timeActive {
+    border: 2px solid #1b7eff;
+    color: #1b7eff;
+}
+
+.showTime, .stopwatchContainer, .timerMain {
+    margin: 15px 40px;
+    margin-right: 150px;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+    margin: 0 5px;
+}
+
+.date {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125em;
+    padding: 10px;
+    width: 100%;
+}
+
+.clock {
+    width: 100%;
+    padding: 10px;
+    font-size: 4em;
+    text-align: center;
+}
+
+.secondsBox {
+    display: inline-block;
+}
+
+.clock .ampm, .clock .seconds {
+    font-size: 2rem;
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+#time, #timer {
+    margin-top: 100px;
+    font-size: 4.4rem;
+}
+
+.stopwatchButtonContainer {
+    margin-top: 20px;
+}
+
+.stopwatchButtonContainer button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 2rem;
+    border-radius: 25px;
+    background: transparent;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.timerButtonContainer button {
+    border: none;
+    outline: none;
+    margin: 20px 10px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.startTimerRejected {
+    background: #aaa;
+    opacity: .7;
+}
+
+.timerOptions {
+    position: fixed;
+    background: #fff;
+    top: 50px;
+    left: 28%;
+    padding: 40px;
+    border-radius: 35px;
+    transform: translateX(-3000px);
+    z-index: 500;
+}
+
+.options {
+    opacity: 0;
+}
+
+.optionsUnion {
+    display: inline-block;
+    margin: 10px 20px ;
+    text-align: center;
+}
+
+.song {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.optionsUnion div h3 {
+    margin: 20px 0;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.song input, .song div {
+    margin: 5px 8px;
+}
+
+.song h4 {
+    margin-left: 20px;
+}
+
+.buttonsOptions {
+    text-align: center;
+    opacity: 0;
+}
+
+.buttonsOptions button {
+    margin: 0 18px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.optionsUnionContainer button, .optionsUnionContainer select {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.optionsUnionContainer button {
+    cursor: pointer;
+}
+
+.invisibleContent2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    opacity: 0;
+    z-index: 39;
+}
+
+#checkbox {
+    transition: all .3s;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.checkboxTrue {
+    background: #1ba4ff;
+    border: 1px solid #1b7eff;
+    transition: background .3s;
+}
+
+.theTimerFinished {
+    position: fixed;
+    top: 140px;
+    left: 36%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    z-index: 500;
+    transform: translateX(-2000px);
+}
+
+.theTimerFinished i {
+    font-size: 55px;
+    margin: 20px 0;
+    color: #48e;
+    opacity: 0;
+}
+
+.theTimerFinished h4 {
+    font-size: 22px;
+    opacity: 0;
+}
+
+.theTimerFinished button {
+    border: none;
+    outline: none;
+    margin: 25px 0;
+    font-size: 25px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    opacity: 0;
+    cursor: pointer;
+}

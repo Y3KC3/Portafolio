@@ -1,0 +1,61 @@
+@keyframes firstTransition {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-2000px);
+    }
+}
+
+@keyframes eliminateTheFirstTransition {
+    0% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes firstTransitionForMobiles {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-2000px);
+    }
+}
+
+@keyframes eliminateTheFirstTransitionForMobiles {
+    0% {
+        transform: translateY(-2000px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes inputConfirmAmation {
+    0% {
+        width: 0;
+        height: 18px;
+        opacity: 1;
+    }
+    100% {
+        width: 280px;
+        height: 18px;
+        opacity: 1;
+    }
+}
+
+@keyframes removeInputConfirmAmation {
+    0% {
+        width: 280px;
+        height: 18px;
+        opacity: 1;
+    }
+    100% {
+        width: 0;
+        height: 18px;
+        opacity: 0;  
+    }
+}

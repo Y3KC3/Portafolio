@@ -1,0 +1,757 @@
+:root {
+    --primary: #2175f5;
+}
+
+.titleMain-store {
+    text-align: center;
+    padding: 30px;
+    background: var(--primary);
+    font-size: 26px;
+    margin-bottom: 25px;
+    transition: .5s;
+}
+
+.storePosition {
+    position: absolute;
+    top: 570%;
+}
+
+.containerOfTheStore {
+    width: 100%;
+    background: #fefefe;
+    transition: .8s;
+}
+
+.articles {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.article {
+    cursor: pointer;
+    width: 150px;
+    padding: 12px 15px;
+    border-radius: 25px;
+    background: #eee;
+    color: #666;
+    margin: 0 15px;
+    font-size: 17px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.article:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+.articleActive {
+    animation: 1s flash ease;
+    background: var(--primary);
+    color: #fff;
+}
+
+@keyframes flash {
+    from {
+        background: #fff;
+    }
+    to {
+        background: var(--primary);
+    }
+}
+
+.store {
+    margin: auto;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.title-color, .sizeTitle, .price i, .price h1, .title-color-shirt, .title-color-makeup,.shirtSizeTitle {
+    color: #333;
+}
+
+.backgroundShoes {
+    position: relative;
+    width: 50%;
+    height: 475px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.shoesStore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+    max-width: 100%;
+}
+
+.backgroundShoesGradients {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.backgroundShoesGradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.backgroundShoesGradient[color="blue"] {
+    background-image: linear-gradient(45deg, #0136af, #22abfa);
+}
+
+.backgroundShoesGradient[color="red"] {
+    background-image: linear-gradient(45deg, #d62926, #ee625f);
+}
+
+.backgroundShoesGradient[color="green"] {
+    background-image: linear-gradient(45deg, #11998e, #1ce669);
+}
+
+.backgroundShoesGradient[color="orange"] {
+    background-image: linear-gradient(45deg, #fc4a1a, #f7b733);
+}
+
+.backgroundShoesGradient[color="black"] {
+    background-image: linear-gradient(45deg, #111, #666);
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.share {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.share:hover {
+    transform: scale(1.1);
+}
+
+.share i {
+    line-height: 50px;
+    color: var(--primary);
+    transition: .5s;
+}
+
+.backgroundShoes h1 {
+    color: #fff;
+}
+
+.nike {
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    font-size: 11rem;
+    text-transform: uppercase;
+    line-height: .9;
+    opacity: .1;
+}
+
+.shoes {
+    position: absolute;
+    width: 140%;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-20deg);
+}
+
+.shoes.showShoes, .shirt.showShirt {
+    opacity: 1;
+}
+
+.shoesInfo {
+    width: 50%;  
+    background: #fff;
+    z-index: 1;
+    padding: 35px 40px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.shoesName {
+    padding: 0 0 10px 0;
+}
+
+.shoesName div.mainTitle {
+    display: flex;
+    align-items: center;
+}
+
+.shoesName div .shoesTitle {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #444;
+    line-height: 1;
+}
+
+.shoesName div .new, .shirtName div .new, .makeupName div .new {
+    background-color: var(--primary);
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.shoesName .descriptionSmall {
+    font-weight: 500;
+    color: #555;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.descriptionSmall , .shoesDescription, .container-color, .container-size, .descriptionSmallForTheShirt, .shirtDescription, .container-color-shirt, .container-size-shirt {
+    border-bottom: 1px solid #dadada;
+}
+
+.shoesDescription {
+    padding: 10px 0;
+    margin-bottom: 5px;
+}   
+
+.descriptionShoesTitle {
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.textShoes {
+    color: #555;
+    font-size: 17px;
+}
+
+.container-color {
+    padding: 10px 0;
+}
+
+.colors {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 5px solid;
+    transition: .5s;
+}
+
+.color[color="blue"] {
+    background-color: #2175f5;
+    border-color: #2175f5;
+}
+
+.color[color="red"] {
+    background-color: #f84848;
+    border-color: #f84848;
+}
+
+.color[color="green"] {
+    background-color: #29b864;
+    border-color: #29b864;
+}
+
+.color[color="orange"] {
+    background-color: #ff5521;
+    border-color: #ff5521;
+}
+
+.color[color="black"] {
+    background-color: #444;
+    border-color: #444;
+}
+
+.container-size {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.sizes {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.size {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #eee;
+    color: #444;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.size.activeSize, .sizeShirt.activeSize {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.buy-price {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: #444;
+    display: flex;
+    align-items: flex-start;
+}
+
+.price h1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.price i {
+    font-size: 1.4rem;
+    margin-right: 1px;
+}
+
+.buy {
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: .7rem 1rem;
+    background-color: var(--primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buy:hover {
+    transform: scale(1.1);
+}
+
+.buy i {
+    margin-right: 2px;
+}
+
+.storeDescriptionContainer {
+    margin-top: 50px;
+    padding: 40px;
+    width: 100%;
+    background: var(--primary);
+    transition: .5s;
+}
+
+.storeDescriptionContainer div {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.storeDescriptionContainer div h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.storeDescriptionContainer div p {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.shirtsStore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+    display: none;
+}
+
+.backgroundShirt {
+    position: relative;
+    width: 50%;
+    height: 475px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.backgroundShirtGradients {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.backgroundShirtGradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.backgroundShirtGradient[color="white"] {
+    background-image: linear-gradient(45deg, #c2c2c2, #f5f5f5);
+}
+
+.backgroundShirtGradient[color="black"] {
+    background-image: linear-gradient(45deg, #595959, #8d8d8d);
+}
+
+.mockup {
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    font-size: 11rem;
+    text-transform: uppercase;
+    line-height: .9;
+    opacity: .1;
+}
+
+.shirt {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    opacity: 0;
+    bottom: 100px;
+    right: 0;
+}
+
+.shirtInfo {
+    width: 50%;  
+    background: #fff;
+    z-index: 1;
+    padding: 35px 40px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.shirtName {
+    padding: 0 0 10px 0;
+}
+
+.shirtMainTitle {
+    display: flex;
+    align-items: center;
+}
+
+.shirtTitle {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #444;
+    line-height: 1;
+}
+
+.descriptionSmallForTheShirt {
+    font-weight: 500;
+    color: #555;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.shirtDescription {
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+.descriptionShirtTitle {
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.textShirt {
+    color: #555;
+    font-size: 17px;
+}
+
+.container-color-shirt {
+    padding: 10px 0;
+}
+
+.colors-shirts {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.colorShirt {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 5px solid;
+    transition: .5s;
+}
+
+.colorShirt[color="white"] {
+    background-color: #eeee;
+    border-color: #eeee;
+}
+
+.colorShirt[color="black"] {
+    background-color: #333;
+    border-color: #333;
+}
+
+.container-size-shirt {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.sizes-shirts {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sizeShirt {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #eee;
+    color: #444;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.firstGradient {
+    z-index: 0;
+    animation: 1s width ease;
+}
+
+.secondGradient {
+    z-index: -1;
+}
+
+.makeupStore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+    display: none;
+}
+
+.backgroundMakeup {
+    position: relative;
+    width: 50%;
+    height: 300px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.makeup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.makeupInfo {
+    width: 50%;  
+    background: #fff;
+    z-index: 1;
+    padding: 35px 40px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.makeupName {
+    padding: 0 0 10px 0;
+}
+
+.makeupName div.makeupMainTitle {
+    display: flex;
+    align-items: center;
+}
+
+.makeupName div .makeupTitle {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #444;
+    line-height: 1;
+}
+
+.descriptionSmallForTheMakeup {
+    font-weight: 500;
+    color: #555;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.makeupDescription {
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+.descriptionMakeupTitle {
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.textMakeup {
+    color: #555;
+    font-size: 17px;
+}
+
+.container-color-makeup {
+    padding: 10px 0;
+}
+
+.colors-makeup {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.colorMakeup {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 5px solid;
+    transition: .5s;
+}
+
+.colorMakeup[color="white"] {
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+.colorMakeup[color="blue"] {
+    background-color: #2175f5;
+    border-color: #2175f5;
+}
+
+.colorMakeup[color="red"] {
+    background-color: #f84848;
+    border-color: #f84848;
+}
+
+.colorMakeup[color="green"] {
+    background-color: #29b864;
+    border-color: #29b864;
+}
+
+.colorMakeup[color="orange"] {
+    background-color: #ff5521;
+    border-color: #ff5521;
+}
+
+.colorMakeup[color="black"] {
+    background-color: #444;
+    border-color: #444;
+}
+
+.colorMakeup[color="yellow"] {
+    background-color: #ffff00;
+    border-color: #ffff00;
+}
+
+.colorMakeup[color="purple"] {
+    background-color: #8800ff;
+    border-color: #8800ff;
+}
+
+.colorMakeup[color="browm"] {
+    background-color: #7e4c00;
+    border-color: #7e4c00;
+}
+
+.color.activeColor, .colorShirt.activeColor, .colorMakeup.activeColor {
+    border-color: #fff;
+    box-shadow: 0 0 10px .5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+@keyframes width {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes out {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(2000px);
+    }
+}
+
+@keyframes entry {
+    from {
+        transform: translateX(-2000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

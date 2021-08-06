@@ -1,0 +1,31 @@
+.collaborationController {
+    margin: 50px 0;
+}
+
+.collaborationDescription {
+    width: 85%;
+    padding: 30px;
+    background: #fefefe;
+    box-shadow: -8px 8px 8px rgba(0,0,0,0.4);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.collaborationImage {
+    width: 350px;
+    margin: 0 60px;
+}
+
+.wordsUnion h1, .wordsUnion p {
+    color: #333;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+.teamTitle {
+    font-size: 24px;
+}

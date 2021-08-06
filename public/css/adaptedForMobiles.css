@@ -1,0 +1,1381 @@
+@media (min-width: 650px) and (max-width: 1024px){
+    .containerPresentationRight, .unifying, .intermediate, .container-button-right, .secondPart, .containerSquaresMaster, .arrow-right, .containerPresentationRight2, .containerSquaresMaster, .nightMode, .storePosition {
+        display: none;
+    }
+    .intermediate {
+        width: 100%;
+        max-width: 100%;
+        background: linear-gradient(45deg, rgba(226,0,255,1) 19%, rgb(116, 68, 250) 51%, rgb(0,78,255) 80%);
+        border-radius: 0;
+    }
+/**/
+    .containerPresentationRight {
+        padding: 20px;
+        display: none;
+        position: initial;    
+        max-width: 100%;
+        width: 70%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: initial;
+        align-items: center;
+        transform: translateY(-2000px);
+        transition: transform 2s;
+    }
+
+    .containerPresentationRight img {
+        margin: 20px 0;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .reactions h2 {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    .reactions {
+        text-align: center;
+    }
+
+   .reactions div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .reactions div button {
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 15px 0;
+        border-radius: 10px;
+    }
+
+    .results div {
+        margin: 10px 0;
+        margin-right: 15px;
+    }
+/**/
+/*PART THAT IS MISSING*/
+    .containerPresentationRight2 {
+        position: initial;
+        max-width: 100%;
+        width: 70%;
+        padding: 20px;
+        margin: 20px auto;
+        display: none;
+        transform: translateY(-3000px);
+        flex-direction: column-reverse;
+        align-items: center;
+        transition: transform 2s;
+    }
+
+    .containerPresentationRight2 img {
+        max-width: 100%;
+        width: 70%;
+    }
+
+    .introduction2 {
+        max-width: 100%;
+        width: 90%;
+        margin: 15px 0;
+    }
+    .introduction2 p {
+        max-width: 100%;
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .secondPart {
+        margin: auto;
+        position: initial;
+        height: auto;
+        padding: 20px;
+        max-width: 100%;
+        width: 70%;
+        transform: translateY(initial);
+    }
+
+    .loginContainer {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .loginForm {
+        margin: 15px 0;
+        padding: 20px 0 0 0;
+        border-top: 1px solid #888;
+    }
+    .loginDescription h1 {
+        text-align: center;
+        font-size: 35px;
+        margin: 20px 0;
+    }
+    .loginDescription {
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        font-size: 20px;
+    }
+    .loginDescription p {
+        text-align: left;
+        font-size: 20px;
+    }
+    .inputGroup {
+        margin: 10px auto;
+        max-width: 100%;
+        width: 90%;
+    }
+    .buttonSubmit {
+        margin-bottom: 15px;
+    }
+    .containerPassword {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #password {
+        width: 80%;
+    }
+    .unifying {
+        position: initial;
+        margin: 40px 0;
+        padding: 20px 0;
+    }
+    .nightModeUnifying {
+        position: initial;
+        margin: 40px 0;
+        padding: 20px 0;
+    }
+    .timeCycleController {
+        margin: 0;
+    }
+    .timeCycle {
+        margin: 20px auto;
+        margin-top: 0;
+        max-width: 100%;
+        width: 80%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .TimeCycledescriptionContainer h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .TimeCycledescriptionContainer p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .TimeCycledescriptionContainer {
+        margin: auto;
+        width: 80%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .showTime, .stopwatchContainer, .timerMain {
+        margin-right: 0;
+        width: 90%;
+        max-width: 100%;
+        margin: 25px auto;
+    }
+    .TimeCycledescriptionContainer {
+        border-bottom: 1px solid #888;
+    }
+    .date {
+        padding: 0;
+        width: 100%;
+    }
+    .date p {
+        font-size: 20px;
+    }
+    #time, #timer {
+        font-size: 3rem;
+    }
+    .clock p {
+        font-size: 3.5rem;
+    }
+    .timerButtonContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .timerButtonContainer button {
+        width: 100%;
+        font-size: 1rem;
+        margin: 5px 0;
+    }
+    .timerOptions { 
+        top: 15px;
+        left: 55px;
+        padding: 20px;
+        width: 80%;
+        height: auto;
+        max-width: 100%;
+        transform: translateX(initial)
+    }
+    .optionsUnion {
+        display: block;
+    }
+    .buttonsOptions button {
+        margin: 0 5px;
+        font-size: 1.2rem;
+        padding: 14px 20px;
+    }
+    .optionsUnionContainer button, .optionsUnionContainer select {
+        font-size: 35px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 30%;
+        max-width: 100%;
+    }
+    .optionsUnionContainer button {
+        width: 20%;
+        max-width: 100%;
+    }
+    .theTimerFinished {
+        width: 80%;
+        height: auto;
+        left: 55px;
+    }
+    .collaborationDescription {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: justify;
+    }
+    .teamTitle {
+        font-size: 30px;
+    }
+    .wordsUnion p {
+        font-size: 20px;
+    }
+    .collaborationImage {
+        width: 70%;
+        max-width: 100%;
+        margin: 20px 0;
+    }
+    .wordsUnion {
+        width: 85%;
+        max-width: 100%;
+    }
+    .calculatorController {
+        margin: 20px auto;
+        max-width: 100%;
+        width: 80%;
+        padding: 20px;
+    }
+    .calculatorContent {
+        width: 90%;
+        max-width: 100%;
+        margin: 15px 0;
+    }
+    .calculatorContent h2 {
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .calculatorContent p {
+        font-size: 20px;
+    }
+    .unionInTheCalculator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .calculator {
+        width: 80%;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .calculatorNumber {
+        grid-template-columns: repeat(4,1fr);
+        gap: 3px;
+    }
+    .calculatorResults {
+        grid-column: span 4;
+        height: 40px;
+    }
+    .buttonNumber, .buttonSigns {
+        width: 80%;
+        height: 50px;
+        font-size: 20px;
+    }
+    .calculatorResults span {
+        font-size: 38px;
+        max-height: 40px;
+    }
+    .nightMode {
+        position: initial;
+        margin: 20px 0;
+    }    
+    .backgroundColorWhite {
+        position: initial;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nightModeDescriptionContainer {
+        margin: 5px 0;
+        width: 80%;
+        text-align: justify;
+    }
+    .nightModeDescriptionContainer h2 {
+        font-size: 30px;
+    }
+    .nightModeDescriptionContainer p {
+        font-size: 20px;
+    }
+    .nightModeButton {
+        margin: 20px auto;
+    }
+    .storePosition {
+        margin-top: 40px;
+        position: initial;
+    }
+    .shirtsStore, .shoesStore, .makeupStore {
+        max-width: 100%;
+    }
+    .titleMain-store {
+        font-size: 30px;
+    }
+    .articles {
+        width: 60%;
+        margin: 0;
+    }
+    .article {
+        width: 20%;
+        padding: 12px 16px;
+        margin: 0 5px;
+        font-size: 20px;
+    }
+    .shoesStore, .shirtsStore, .makeupStore {
+        flex-direction: column;
+    }
+    .backgroundShoes, .backgroundShirt, .backgroundMakeup {
+        height: 200px;
+        width: 111%;
+    }
+    .shoes, .shirt {
+        width: 60%;
+        transform: rotate(-6deg) translateY(-50%);
+        top: 55%;
+        left: 20%;
+    }
+    .nike, .mockup {
+        font-size: 7rem;
+    }
+    .shoesInfo, .shirtInfo, .makeupInfo {
+        width: 100%;
+    }
+    .descriptionSmall, .descriptionSmallForTheShirt {
+        font-size: 1rem;
+    }
+    .shoesTitle, .shirtTitle, .makeupTitle {
+        font-size: 1.3rem;
+    }
+    .new {
+        padding: 2px 6px;
+        font-size: 1.2rem;
+    }
+    .textShoes, .textShirt, .textMakeup {
+        font-size: 1.5rem;
+    }
+    .buy {
+        padding: 1rem 1rem;
+        font-size: 1.3rem;
+    }
+    .storeDescriptionContainer {
+        padding: 20px;
+        width: auto;
+        margin-top: 0;
+    }
+    .storeDescriptionContainer div {
+        width: 90%;
+    }
+    .storeDescriptionContainer div h1 {
+        font-size: 30px;
+    }
+    .storeDescriptionContainer div p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    /**/
+    .left {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .title {
+        margin: 25px 0;
+        font-size: 35px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .description {
+        font-size: 25px;
+        max-width: 100%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .mainImage {
+        max-width: 100%;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .containerButtons, .containerButtons2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .containerButtons button, .containerButtons2 button {
+        padding: 15px 20px;
+        font-size: 25px;
+        margin: 5px 0;
+        border-radius: 15px;
+    }
+    .arrow-left {
+        display: none;
+    }
+    .visibleContent {
+        width: 100%;
+        height: 200%;
+    }
+    /**/
+
+    .arrow-down, .arrow-up {
+        padding: 8px 8px;
+        border-radius: 10px;
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .arrow-up {
+        position: initial;
+        display: none;
+        margin: 50px auto;
+        transform: translateY(-2000px);
+        transition: transform 2s;
+    }
+
+    /**/
+
+    .arrow-down, .arrow-up {
+        padding: 15px 24px;
+        border-radius: 15px;
+        display: block;
+        width: 80%;
+        font-size: 30px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    
+    .opt4, .opt5 , .opt3, .opt2, .opt{
+        max-width: 100%;
+        width: 80%;
+        left: 55px;
+        top: 30px;
+        z-index: 40;
+    }
+    
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2, .opt3 .display-block .divider h1, .opt2 .display-block .divider h1 {
+        font-size: 60px;
+    }
+
+    .skillsImages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+
+    .controlImage {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    .display-block p, .complement h4 {
+        font-size: 35px;
+    }
+
+    .technologies img {
+        width: 60%;
+        margin: 30px 0;
+    }
+
+    .hobbys h4 {
+        font-size: 26px;
+    }
+    .projects {
+        margin: 50px 0;
+    }
+    .complement i {
+        margin: 25px 0;
+        font-size: 90px;
+    } 
+    .contact h3 {
+        font-size: 33px;
+        margin: 35px 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .containerPresentationRight, .unifying, .intermediate, .container-button-right, .secondPart, .containerSquaresMaster, .arrow-right, .containerPresentationRight2, .containerSquaresMaster, .nightMode, .storePosition{
+        display: none;
+    }
+
+    .partLeft {
+        background-image: url('../img/background.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 0 0 60px 0;
+    }
+
+    .intermediate {
+        width: 100%;
+        max-width: 100%;
+        background: linear-gradient(45deg, rgba(226,0,255,1) 19%, rgb(116, 68, 250) 51%, rgb(0,78,255) 80%);
+        border-radius: 0;
+    }
+
+    .containerPresentationRight {
+        padding: 20px;
+        display: none;
+        position: initial;    
+        max-width: 100%;
+        width: 70%;
+        margin: 20px auto;
+        flex-wrap: wrap;
+        justify-content: initial;
+        align-items: center;
+        transform: translateY(-2000px);
+        transition: transform 2s;
+    }
+
+    .containerPresentationRight img {
+        margin: 20px 0;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .reactions h2 {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    .reactions {
+        text-align: center;
+    }
+
+    .reactions div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .reactions div button {
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 15px 0;
+        border-radius: 10px;
+    }
+
+    .results div {
+        margin: 10px 0;
+        margin-right: 15px;
+    }
+
+    /*PART THAT IS MISSING*/
+    .containerPresentationRight2 {
+        position: initial;
+        max-width: 100%;
+        width: 70%;
+        padding: 20px;
+        margin: 20px auto;
+        display: none;
+        transform: translateY(-2000px);
+        flex-direction: column-reverse;
+        align-items: center;
+        transition: transform 2s;
+    }
+
+    .containerPresentationRight2 img {
+        max-width: 100%;
+        width: 70%;
+    }
+
+    .introduction2 {
+        max-width: 100%;
+        width: 90%;
+        margin: 15px 0;
+    }
+    .introduction2 p {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .secondPart {
+        margin: auto;
+        position: initial;
+        height: auto;
+        padding: 20px;
+        max-width: 100%;
+        width: 70%;
+        transform: translateY(initial);
+    }
+
+    .loginContainer {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .loginForm {
+        margin: 15px 0;
+        padding: 20px 0 0 0;
+        border-top: 1px solid #888;
+    }
+    .loginDescription h1 {
+        text-align: center;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    .loginDescription {
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        font-size: 16px;
+    }
+    .loginDescription p {
+        text-align: left;
+    }
+    .inputGroup {
+        margin: 10px auto;
+        max-width: 100%;
+        width: 90%;
+    }
+    .buttonSubmit {
+        margin-bottom: 15px;
+    }
+    .containerPassword {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #password {
+        width: 80%;
+    }
+    .unifying {
+        position: initial;
+        margin: 40px 0;
+        padding: 20px 0;
+    }
+    .nightModeUnifying {
+        position: initial;
+        margin: 40px 0;
+        padding: 20px 0;
+    }
+    .timeCycleController {
+        margin: 0;
+    }
+    .timeCycle {
+        margin: 20px auto;
+        margin-top: 0;
+        max-width: 100%;
+        width: 80%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .TimeCycledescriptionContainer h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .TimeCycledescriptionContainer p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .TimeCycledescriptionContainer {
+        margin: auto;
+        width: 80%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .showTime, .stopwatchContainer, .timerMain {
+        margin-right: 0;
+        width: 90%;
+        max-width: 100%;
+        margin: 25px auto;
+    }
+    .TimeCycledescriptionContainer {
+        border-bottom: 1px solid #888;
+    }
+    .date {
+        padding: 0;
+        width: 100%;
+    }
+    .date p {
+        font-size: 16px;
+    }
+    #time, #timer {
+        font-size: 3rem;
+    }
+    .clock p {
+        font-size: 3.5rem;
+    }
+    .timerButtonContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .timerButtonContainer button {
+        width: 100%;
+        font-size: 1rem;
+        margin: 5px 0;
+    }
+    .timerOptions { 
+        top: 15px;
+        left: 15px;
+        padding: 20px;
+        width: 80%;
+        height: auto;
+        max-width: 100%;
+        transform: translateX(initial)
+    }
+    .optionsUnion {
+        display: block;
+    }
+    .buttonsOptions button {
+        margin: 0 5px;
+        font-size: 1.2rem;
+        padding: 14px 20px;
+    }
+    .optionsUnionContainer button, .optionsUnionContainer select {
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 30%;
+        max-width: 100%;
+    }
+    .optionsUnionContainer button {
+        width: 20%;
+        max-width: 100%;
+    }
+    .theTimerFinished {
+        width: 80%;
+        height: auto;
+        left: 15px;
+    }
+    .collaborationDescription {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: justify;
+    }
+    .collaborationImage {
+        width: 70%;
+        max-width: 100%;
+        margin: 20px 0;
+    }
+    .wordsUnion {
+        width: 85%;
+        max-width: 100%;
+    }
+    .calculatorController {
+        margin: 20px auto;
+        max-width: 100%;
+        width: 80%;
+        padding: 20px;
+    }
+    .calculatorContent {
+        width: 90%;
+        max-width: 100%;
+        margin: 15px 0;
+    }
+    .unionInTheCalculator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .calculator {
+        width: 80%;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .calculatorNumber {
+        grid-template-columns: repeat(4,1fr);
+        gap: 3px;
+    }
+    .calculatorResults {
+        grid-column: span 4;
+        height: 40px;
+    }
+    .buttonNumber, .buttonSigns {
+        width: 80%;
+        height: 50px;
+        font-size: 17px;
+    }
+    .calculatorResults span {
+        font-size: 38px;
+        max-height: 40px;
+    }
+    .nightMode {
+        position: initial;
+        margin: 20px 0;
+    }    
+    .backgroundColorWhite {
+        position: initial;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nightModeDescriptionContainer {
+        margin: 5px 0;
+        width: 80%;
+        text-align: justify;
+    }
+    .nightModeButton {
+        margin: 20px auto;
+    }
+    .storePosition {
+        margin-top: 40px;
+        position: initial;
+    }
+    .shirtsStore, .shoesStore, .makeupStore {
+        max-width: 100%;
+    }
+    .articles {
+        width: 60%;
+        margin: 0;
+    }
+    .article {
+        width: 20%;
+        padding: 8px 12px;
+        margin: 0 5px;
+        font-size: 16px;
+    }
+    .shoesStore, .shirtsStore, .makeupStore {
+        flex-direction: column;
+    }
+    .backgroundShoes, .backgroundShirt, .backgroundMakeup {
+        height: 200px;
+        width: 130%;
+    }
+    .shoes, .shirt {
+        width: 80%;
+        transform: rotate(-5deg) translateY(-50%);
+        top: 55%;
+        left: 10%;
+    }
+    .nike, .mockup {
+        font-size: 7rem;
+    }
+    .shoesInfo, .shirtInfo, .makeupInfo {
+        width: 100%;
+    }
+    .descriptionSmall, .descriptionSmallForTheShirt {
+        font-size: 1rem;
+    }
+    .shoesTitle, .shirtTitle, .makeupTitle {
+        font-size: 1.3rem;
+    }
+    .new {
+        padding: 2px 6px;
+        font-size: .9rem;
+    }
+    .textShoes, .textShirt, .textMakeup {
+        font-size: 1rem;
+    }
+    .colors-makeup {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+    .buy {
+        padding: .5rem .8rem;
+        font-size: .8rem;
+    }
+    .storeDescriptionContainer {
+        padding: 20px;
+        width: auto;
+        margin-top: 0;
+    }
+    .storeDescriptionContainer div {
+        width: 90%;
+    }
+    .storeDescriptionContainer div h1 {
+        font-size: 22px;
+    }
+    .storeDescriptionContainer div p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    /**/
+
+    .left {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .title {
+        margin: 15px 0;
+        font-size: 25px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .description {
+        font-size: 15px;
+        max-width: 100%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .mainImage {
+        max-width: 100%;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .containerButtons, .containerButtons2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .containerButtons button, .containerButtons2 button {
+        padding: 8px 8px;
+        font-size: 16px;
+        margin: 5px 0;
+        border-radius: 10px;
+    }
+    .arrow-left {
+        display: none;
+    }
+    .visibleContent {
+        width: 100%;
+        height: 200%;
+    }
+
+    .arrow-down, .arrow-up {
+        padding: 8px 8px;
+        border-radius: 10px;
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .arrow-up {
+        position: initial;
+        display: none;
+        margin: 30px auto;
+        transform: translateY(-2000px);
+        transition: transform 2s;
+    }
+    
+    .opt4, .opt5 , .opt3, .opt2, .opt{
+        max-width: 100%;
+        width: 80%;
+        left: 20px;
+        top: 25px;
+        z-index: 40;
+    }
+
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-none .divider h2 {
+        font-size: 20px;
+    }
+
+    .skillsImages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+
+    .controlImage {
+        width: 70%;
+    }
+
+    .display-block p, .complement h4 {
+        font-size: 15px;
+    }
+
+    .technologies img {
+        width: 70%;
+    }
+
+    .hobbys h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px){
+    .results div {
+        margin: 10px 0;
+        margin-right: 65px;
+    }
+    .results div h1 {
+        font-size: 22px;
+    }
+    .clock p, #time {
+        font-size: 35px;
+    }
+    .articles {
+        width: 80%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .article {
+        width: 100%;
+        padding: 8px 12px;
+        margin: 5px 5px;
+        font-size: 16px;
+    }
+    .colors {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .colors-makeup {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .sizes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-height: 540px) {
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2, .opt3 .display-block .divider h1, .opt2 .display-block .divider h1 {
+        font-size: 25px;
+    }
+
+    .skillsImages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+
+    .controlImage {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    .display-block p, .complement h4 {
+        font-size: 15px;
+    }
+
+    .technologies img {
+        width: 60%;
+        margin: 30px 0;
+    }
+
+    .hobbys h4 {
+        font-size: 18px;
+    }
+    .projects {
+        margin: 50px 0;
+    }
+    .complement i {
+        margin: 25px 0;
+        font-size: 60px;
+    } 
+    .contact h3 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+}
+
+@media (max-height: 380px){
+    .opt4, .opt5 , .opt3, .opt2, .opt{
+        max-width: 100%;
+        width: 80%;
+        left: 30px;
+        top: 10px;
+        z-index: 40;
+    }
+
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2, .opt3 .display-block .divider h1, .opt2 .display-block .divider h1 {
+        font-size: 22px;
+    }
+
+    .skillsImages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+
+    .controlImage {
+        width: 25%;
+        margin: 3px 0;
+    }
+
+    .display-block p, .complement h4 {
+        font-size: 14px;
+        margin: 4px 0;
+    }
+
+    .technologies img {
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .hobbys h4 {
+        font-size: 12px;
+    }
+    .projects {
+        margin: 15px 0;
+    }
+    .complement i {
+        margin: 25px 0;
+        font-size: 60px;
+    } 
+    .contact h3 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-height: 300px){
+    .opt4, .opt5 , .opt3, .opt2, .opt{
+        max-width: 100%;
+        width: 80%;
+        left: 30px;
+        top: 10px;
+        z-index: 40;
+    }
+
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2, .opt3 .display-block .divider h1, .opt2 .display-block .divider h1 {
+        font-size: 18px;
+    }
+
+    .skillsImages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+
+    .controlImage {
+        width: 20%;
+        margin: 2px 0;
+    }
+
+    .display-block p, .complement h4 {
+        font-size: 12px;
+        margin: 2px;
+    }
+
+    .technologies img {
+        width: 20%;
+        margin: 5px 0;
+    }
+
+    .hobbys h4 {
+        font-size: 10px;
+    }
+    .projects {
+        margin: 10px 0;
+    }
+    .complement i {
+        margin: 15px 0;
+        font-size: 30px;
+    } 
+    .contact h3 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 850px) {
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2 {
+        font-size: 30px;
+    }
+    .display-block p, .complement h4 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .projects {
+        margin: 50px 0;
+    }
+    .complement i {
+        margin: 25px 0;
+        font-size: 60px;
+    } 
+    .contact h3 {
+        font-size: 23px;
+        margin: 35px 0;
+    }
+    .technologies img {
+        width: 60%;
+        margin: 55px 0;
+    }
+    .skillsImages img {
+        width: 80%;
+        margin: 40px 0;
+    }
+    .hobbys h4 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 750px) {
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2 {
+        font-size: 30px;
+    }
+    .display-block p, .complement h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .projects {
+        margin: 30px 0;
+    }
+    .complement i {
+        margin: 25px 0;
+        font-size: 60px;
+    } 
+    .contact h3 {
+        font-size: 19px;
+        margin: 35px 0;
+    }
+    .technologies img {
+        width: 60%;
+        margin: 45px 0;
+    }
+    .skillsImages img {
+        width: 80%;
+        margin: 40px 0;
+    }
+    .hobbys h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) and (max-height: 700px) {
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2 {
+        font-size: 25px;
+    }
+    .display-block p, .complement h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .projects {
+        margin: 30px 0;
+    }
+    .complement i {
+        margin: 25px 0;
+        font-size: 60px;
+    } 
+    .contact h3 {
+        font-size: 19px;
+        margin: 25px 0;
+    }
+    .technologies img {
+        width: 60%;
+        margin: 35px 0;
+    }
+    .skillsImages img {
+        width: 80%;
+        margin: 30px 0;
+    }
+    .hobbys h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 640px){
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2 {
+        font-size: 24px;
+    }
+    .display-block p, .complement h4 {
+        font-size: 16px;
+    }
+    .skillsImages img {
+        width: 80%;
+        margin: 25px 0;
+    }
+    .projects {
+        margin: 20px 0;
+    }
+    .complement i {
+        margin: 15px 0;
+        font-size: 60px;
+    } 
+    .contact h3 {
+        font-size: 19px;
+        margin: 25px 0;
+    }
+    .technologies img {
+        width: 60%;
+        margin: 35px 0;
+    }
+    .hobbys h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 600px){
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2 {
+        font-size: 22px;
+    }
+    .display-block p, .complement h4 {
+        font-size: 17px;
+    }
+    .complement i {
+        font-size: 70px;
+    } 
+    .contact h3 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .technologies img {
+        width: 60%;
+        margin: 20px 0;
+    }
+    .skillsImages img {
+        width: 80%;
+        margin: 10px 0;
+    }
+    .projects {
+        margin: 20px 0;
+    }
+    .complement i {
+        margin: 15px 0;
+        font-size: 60px;
+    } 
+    .hobbys h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) and (max-height: 580px){
+    .opt .divider h2, .opt5 .divider h1, .divider button, .opt4 .display-block .divider h2 {
+        font-size: 17px;
+    }
+    .display-block p, .complement h4 {
+        font-size: 14px;
+    }
+    .hobbys h4 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .containerButtons, .containerButtons2  {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

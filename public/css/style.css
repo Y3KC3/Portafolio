@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;    
+    color: #fff;
+}
+
+body {
+    overflow: hidden;
+}
+
+.left {
+    display: flex;
+    max-width: 100%;
+}
+
+.background {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.backgroundRight {
+    background: rgb(0,78,255);
+    background: linear-gradient(45deg, #004eff 17%, #0097ff 46%, #00b8f2 72%, #0092ff 83%, #0066d0 83%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.backgroundNightMode {
+    background: rgb(0,16,52);
+    background: linear-gradient(45deg, rgba(0,16,52,1) 17%, rgba(0,60,101,1) 46%, rgba(0,73,96,1) 72%, rgba(0,50,87,1) 83%, rgba(0,45,91,1) 83%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    width: 400px;
+    max-width: 100%;
+    font-family: 'Limelight', cursive;
+    margin: 40px 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+    width: 450px;
+    max-width: 100%;
+    margin: 20px 50px;
+    text-align: justify;
+}
+
+.containerButtons {
+    margin: 40px 50px;
+}
+
+.containerButtons button, .containerButtons2 button {
+    font-family: 'Karla', sans-serif;
+    background: #ff6a00;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.containerButtons button:hover {
+    background: rgb(1, 161, 209);
+}
+
+.containerButtons button:active {
+    background: rgb(157, 0, 219);
+}  
+
+.mainImage {
+    margin: 40px 20px 10px 50px;
+    width: 400px;
+    animation: 2s originalImageMovement forwards;
+}
+
+.mainImage:hover {
+    animation: 2s moveImage forwards;
+}
+
+.containerButtons2  {
+    margin-left: 100px;
+}
+
+.containerButtons2 button:hover {
+    background: rgb(0, 129, 168);
+}
+
+.containerButtons2 button:active {
+    background: rgb(157, 0, 219);
+}  
+ 
+
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+.arrow-left, .arrow-down {
+    background: #ff6a00;
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.arrow-left:hover {
+    background: rgb(0, 129, 168);
+}
+
+.arrow-left:active {
+    background: rgb(157, 0, 219);
+}  
+
+.arrow-down, .arrow-up {
+    display: none;
+}
+
+.arrow-down:hover {
+    background: rgb(0, 129, 168);
+}
+
+.arrow-down:active {
+    background: rgb(157, 0, 219);
+}  
+
+.intermediate {
+    position: absolute;
+    height: 3000px;
+    width: 3000px;
+    border-radius: 50%;
+    background: rgb(0,78,255);
+    background: linear-gradient(45deg, rgb(0,78,255) 19%, rgb(116, 68, 250) 51%, rgba(226,0,255,1) 80%);
+    transform: translate(-3000px, -1500px);
+    transition: transform 4.5s;
+    z-index: 50;
+}
+
+.unifying {
+    width: 100%;
+    background: rgb(162,0,255);
+    background: linear-gradient(127deg, #a200ff 15%, #e26bff 15%, #63baff 30%, #519afd 30%, #1989f8 42%, #0080ff 42%, #1500ff 51%, #4800ff 58%, #8800ff 58%, #a600ff 72%, #e200ff 72%);
+    box-shadow: 0 0 15px 20px rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 270%;
+}
+
+.nightModeUnifying {
+    width: 100%;
+    background: rgb(54,0,85);
+    background: linear-gradient(127deg, rgba(54,0,85,1) 15%, rgba(87,45,97,1) 15%, rgb(46, 86, 117) 30%, rgba(45,82,133,1) 30%, rgba(18,78,138,1) 42%, rgba(0,52,105,1) 42%, rgba(8,0,96,1) 51%, rgba(22,0,79,1) 58%, rgba(43,0,80,1) 58%, rgba(53,0,82,1) 72%, rgba(78,0,88,1) 72%);
+    box-shadow: 0 0 15px 20px rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 270%;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes originalImageMovement {
+    0% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(0);
+    }
+}

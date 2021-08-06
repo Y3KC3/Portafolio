@@ -1,0 +1,120 @@
+.calculatorController {
+    padding: 30px;
+    width: 85%;
+    margin: 100px auto;
+    background: #fefefe;
+    border-radius: 25px;
+    box-shadow: -8px 8px 8px rgba(0,0,0,0.4);
+    transition: .5s;
+}
+
+.calculatorContent h2, .calculatorContent p, .calculatorResults {
+    color: #333;
+}
+
+.calculatorContent {
+    margin: 0 60px;
+}
+
+.calculatorContent h2 {
+    margin: 20px 0;
+}
+
+.unionInTheCalculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    padding: 25px;
+    border-radius: 25px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    margin: 0 60px;
+}
+
+.calculatorNumber {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+.buttonNumber, .buttonSigns {
+    border: none;
+    outline: none;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+}
+
+.buttonNumber:hover {
+    background: #ddd;
+}
+
+.buttonSigns {
+    background: #eee;
+}
+
+.buttonResults {
+    background: rgb(0, 150, 236);
+    color: #fff;
+}
+
+.calculatorResults {
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border: 1px solid #999;
+    background: #fff;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.calculatorResults span {
+    width: 100%;
+    max-width: 100%;
+    max-height: 60px;
+    font-size: 45px;
+    color: #333;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.calculatorResults input::placeholder {
+    font-size: 45px;
+    color: #999;
+}
+
+.signs {
+    display: grid;
+}
+
+.buttonSigns:hover {
+    background: #ccc;
+}
+
+.buttonResults:hover {
+    background: rgb(0, 121, 190);
+}
+
+.buttonNumber:active {
+    background: #ccc;
+}
+
+.buttonSigns:active {
+    background: #aaa;
+}
+
+.buttonResults:active {
+    background: rgb(0, 96, 151);
+}

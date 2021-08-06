@@ -1,0 +1,387 @@
+.controlImage {
+    width: 70px;
+    height: 50px;
+    margin: 15px 20px;
+}
+
+.mdb {
+    width: 200px;
+    height: 100px;
+    margin: 15px 0;
+}
+
+.invisible {
+   display: none;
+}
+
+.opt {
+    width: 350px;
+    left: 72px;
+    top: 20px;
+    z-index: 40;
+}
+
+.opt2 {
+    width: 400px;
+    left: 220px;
+    bottom: 110px;
+    z-index: 40;
+}
+
+.opt3 {
+    width: 450px;
+    left: 360px;
+    bottom: 110px;
+    z-index: 40;
+}
+
+.opt4 {
+    width: 340px;
+    left: 670px;
+    bottom: 75px;
+    z-index: 40;
+}
+
+.opt5 {
+    width: 400px;
+    right: 270px;
+    bottom: 70px;
+    z-index: 40;
+}
+
+.display-none {
+    display: none;
+    animation: removeOpacity .5s forwards;
+}
+
+.display-block {
+    display: block;
+    animation: opacity .5s forwards;
+}
+
+.visible {
+    position: absolute;
+    background: rgb(226,0,255);
+    background: linear-gradient(45deg, rgba(226,0,255,1) 21%, rgba(184,0,255,1) 49%, rgba(101,0,134,1) 81%);
+    box-shadow: -15px 15px 10px rgb(99, 0, 112);
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.visibleContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(99, 0, 112);
+    z-index: 39;
+}
+
+.divider {
+    display: flex;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.divider h1 {
+    margin: 0 10px;
+}
+
+.divider button {
+    position: absolute;
+    right: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+
+.visible p {
+    width: 90%;
+    margin: 25px auto;
+    text-align: right;
+}
+
+.projects {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complement {
+    text-align: center;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.complement i {
+    margin: 20px 0;
+    font-size: 60px;
+}
+
+.contact {
+    width: 90%;
+    margin: auto;
+}
+
+.contact h3 {
+    margin: 15px 0;
+}
+
+.contactRoutes {
+    color: rgb(99, 0, 180);
+    text-decoration: none;
+}
+
+.contactRoutes:hover {
+    color: rgb(61, 0, 110);
+}
+
+.contactRoutes:active {
+    color: rgb(36, 0, 66);
+}
+
+.technologies {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hobbys {
+    width: 90%;
+    margin: auto;
+}
+
+.hobbys h4 {
+    margin: 10px 0;
+}
+
+.exit {
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.exit:hover {
+    color: rgb(255, 0, 221);
+}
+
+.exit:active {
+    color: rgb(157, 0, 219);
+}
+
+@keyframes appear {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 350px;
+        height: 0;
+    }
+    100% {
+        width: 350px;
+        height: 453px;
+    }
+}
+
+@keyframes appear2 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 400px;
+        height: 0;
+    }
+    100% {
+        width: 400px;
+        height: 325px;
+    }
+}
+
+@keyframes appear3 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 450px;
+        height: 0;
+    }
+    100% {
+        width: 450px;
+        height: 355px;
+    }
+}
+
+@keyframes appear4 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 340px;
+        height: 0;
+    }
+    100% {
+        width: 340px;
+        height: 348px;
+    }
+}
+
+@keyframes appear5 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 400px;
+        height: 0;
+    }
+    100% {
+        width: 400px;
+        height: 450px;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        width: 350px;
+        height: 453px;  
+    }
+    50% {
+        width: 350px;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes disappear2 {
+    0% {
+        width: 400px;
+        height: 325px;  
+    }
+    50% {
+        width: 400px;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes disappear3 {
+    0% {
+        width: 450px;
+        height: 355px;  
+    }
+    50% {
+        width: 450px;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes disappear4 {
+    0% {
+        width: 340px;
+        height: 348px;  
+    }
+    50% {
+        width: 340px;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes disappear5 {
+    0% {
+        width: 400px;
+        height: 450px;  
+    }
+    50% {
+        width: 400px;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes opacityVisibleContent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: .4;
+    }
+}
+
+@keyframes removeOpacityVisibleContent {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes removeOpacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes appearInMobiles {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 80%;
+        height: 0;
+    }
+    100% {
+        width: 80%;
+        height: 80%;  
+    }
+}
+
+@keyframes disappearInMobiles {
+    0% {
+        width: 80%;
+        height: 80%;    
+    }
+    50% {
+        width: 80%;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+}

@@ -1,0 +1,255 @@
+.arrow-right, .arrow-up {
+    position: absolute;
+    background: rgb(0, 204, 255);
+    top: 257px;
+    left: 5%;
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 5;
+    transform: translateX(2000px);
+    transition: background .4s, transform 2s;
+}
+
+.arrow-right:hover {
+    background: rgb(0, 170, 212);
+    border: none;
+}
+
+.arrow-right:active {
+    background: rgb(0, 119, 199);
+    border: none;
+}
+
+.containerPresentationRight {
+    position: absolute;
+    top: 50px;
+    left: 11%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 20px;
+    background: #fff;
+    padding: 25px;
+    transform: translateX(2000px);
+    transition: transform 2s, background .5s;
+}
+
+.containerPresentationRight img {
+    margin: 0 50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.reactions {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.reactions h2 {
+    font-size: 35px;
+    margin: 20px 0;
+    color: #333;
+    transition: .5s;
+}
+
+.reactions div button {
+    margin: 0 23px;
+    padding: 15px 25px;
+    font-size: 20px;
+    background: rgb(0, 150, 236);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .4s;
+}
+
+.reactions div button:hover {
+    background: rgb(0, 124, 196);
+}
+
+.reactions div button:active {
+    background: rgb(0, 93, 146);
+}
+
+.results {
+    margin: 0 40px;
+}
+
+.results div h1 {
+    margin: 0 5px;
+    color: #333;
+}
+
+.results div {
+    margin: 22px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerPresentationRight2 {
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    display: flex;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    background: #fff;
+    padding: 25px;
+    transform: translateX(2000px);
+    transition: transform 2s;
+}
+
+.containerPresentationRight2 img {
+    width: 200px;
+}
+
+.introduction2 {
+    margin: 0 10%;
+}
+
+.introduction2 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin: 20px auto;
+}
+
+.introduction2 p {
+    margin: auto;
+    font-size: 16px;
+    color: #333;
+    width: 400px;
+    text-align: center;
+}
+
+.secondPart {
+    position: absolute;
+    left: 11%;
+    top: 100%;
+    height: 200px;
+    width: 80%;
+    border-radius: 20px;
+    background: #fff;
+    padding: 45px 25px;
+    transform: translateX(2000px);
+    transition: transform 2s;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.loginFormTitle {
+    color: #333;
+}
+
+.loginDescription {
+    text-align: justify;
+    width: 500px;
+}
+
+.loginDescription h1, .loginDescription p {
+    color: #333;
+}
+
+.loginDescription h1 {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.inputGroup i {
+    color: #666;
+    line-height: 27px;
+}
+
+.inputGroup {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 15px;
+    height: 28px;
+    background: #ddd;
+    border-radius: 25px;
+}
+
+.containerPassword {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputControl {
+    border: none;
+    outline: none;
+    margin: 0 5px;
+    padding: 10px 15px;
+    color: #333;
+    background: transparent;
+}
+
+.fa-user {
+    margin: 0 5px;
+}
+
+#userName {
+    margin: 0 8.5px;
+}
+
+#eye {
+    display: none;
+    cursor: pointer;
+}
+
+.buttonSubmit {
+    border: none;
+    outline: none;
+    background: rgb(0, 150, 236);
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.buttonSubmit:hover {
+    background: rgb(0, 124, 196);
+}
+
+.buttonSubmit:active {
+    background: rgb(0, 93, 146);
+}
+
+.inputControl:focus {
+    background: transparent;
+}
+
+.union {
+    display: flex;
+}
+
+#inputConfirmation {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 15px 35px;
+    border-radius: 25px;
+    z-index: 200;
+    opacity: 0;
+}
+
+.inputConfirmationSuccessful {
+    background: #00b5e2;
+}
+
+.inputConfirmationError {
+    background: #ff7300;
+}

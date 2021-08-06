@@ -1,0 +1,67 @@
+.nightMode {
+    position: absolute;
+    top: 520%;
+}
+
+.backgroundColorWhite {
+    margin: auto;
+    width: 80%;
+    padding: 25px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    transition: .5s;
+}
+
+.nightModeDescriptionContainer {
+    width: 45%;
+    text-align: center;
+}
+
+.nightModeDescriptionContainer h2, .nightModeDescriptionContainer p {
+    color: #333;
+}
+
+.nightModeDescriptionContainer h2 {
+    margin: 20px 0;
+}
+
+.nightModeButton {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.nightModeBackground {
+    cursor: pointer;
+    border-radius: 30px;
+    width: 70px;
+    height: 30px;
+    background: #ccc;
+    transition: .2s;
+}
+
+.nightModeCircle {
+    width: 45%;
+    background: #eee;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.nightModeCircle i {
+    font-size: 20px;
+    transition: .5s;
+}
+
+#sun {
+    color: #888;
+}
+
+#moon {
+    display: none;
+}
