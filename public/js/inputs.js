@@ -9,14 +9,14 @@ const selector = document.querySelector('.selector');
 const userNameInput = 'unaPrueba';
 const passwordInput = '123456';
 
-password.addEventListener('keyup', e => {
+password.addEventListener('keyup', () => {
     if (password.value.length > 0) {
         eye.style.display = 'block';
         fa_lock.style.margin = '0';
         password.style.margin = '0';
         selector.classList.add('containerPassword');
     } else {
-        eye.style.display = 'none'
+        eye.style.display = 'none';
         fa_lock.style.margin = '0 5px';
         password.style.margin = '0 8.5px';
         selector.classList.remove('containerPassword');
@@ -52,14 +52,11 @@ const showData = (message, addClass, removeClass) => {
     document.createDocumentFragment(inputConfirmation);
     const word = document.createElement('P');
     word.style.opacity = '0';
-
     setTimeout(() => {
         word.innerHTML = message;
         word.style.animation = 'opacity 1s forwards';
     }, 800);
-
     inputConfirmation.appendChild(word);
-
     setTimeout(() => {
         word.style.display = 'none';
         inputConfirmation.style.animation = 'removeInputConfirmAmation 1s forwards';

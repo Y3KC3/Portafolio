@@ -16,15 +16,15 @@ export default class Presentation extends Component {
                     De Un Gran Equipo De Trabajo, Nuestra Corporacion Esta
                     Forjada En El Desarrollo De Sotfware Y Aplicaciones Tanto,
                     En Moviles Como En Aplicaciones De Escritorio 
-                    Nuesro Equipo Tiene Mas De 2 Años De Experiencia Que Esta
-                    Hubicado En Venezuela-Caracas, Junto A Nuestro Equipo De 
+                    Nuestro Equipo Tiene Mas De 2 Años De Experiencia Que Esta
+                    ubicado En Venezuela-Caracas, Junto A Nuestro Equipo De 
                     Desarrolladores Hacemos Trabajos De Diferentes Niveles, Desde
                     Una Pagina Informativa, Hasta Una Aplicacion Web.
                 </p>
                 <div className="containerButtons">
-                    <button className="button1" id="skills">Habilidades</button>
-                    <button className="button2" id="projects">Proyectos</button>
-                    <button className="button3" id="contact">Contacto</button>
+                    <button className="button1 mobile skillsC" id="skills">Habilidades</button>
+                    <button className="button2 mobile projectsC" id="projects">Proyectos</button>
+                    <button className="button3 mobile contactC" id="contact">Contacto</button>
                 </div>
             </div>
         );

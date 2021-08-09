@@ -19,8 +19,8 @@ export default class Contact extends Component {
                             <h3><i className="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/melvin_mc16/?hl=es-la" className="contactRoutes" rel="noreferrer" target="_BLANK">Instagram</a></h3>
                             <h3><i className="far fa-envelope"></i> Correo: Priv</h3>
                             <h3><i className="fas fa-phone"></i> Telefono: Priv</h3>
-                            <h3><i className="fas fa-phone"></i> Github: <a href="https://github.com/Y3KC3" className="contactRoutes" rel="noreferrer" target="_BLANK">Github</a></h3>
-                            <h3><i className="fas fa-phone"></i> Linkedln: <a href="https://www.linkedin.com/in/melvin-abraham-colmenares-mendoza-a168a4217/" className="contactRoutes" rel="noreferrer" target="_BLANK">linkedin</a></h3>
+                            <h3><i className="fab fa-github"></i> Github: <a href="https://github.com/Y3KC3" className="contactRoutes" rel="noreferrer" target="_BLANK">Github</a></h3>
+                            <h3><i className="fab fa-linkedin-in"></i> Linkedin: <a href="https://www.linkedin.com/in/melvin-abraham-colmenares-mendoza-a168a4217/" className="contactRoutes" rel="noreferrer" target="_BLANK">linkedin</a></h3>
                         </div>
                     </div>
                 </div>
