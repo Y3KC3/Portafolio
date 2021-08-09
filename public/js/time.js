@@ -96,6 +96,7 @@ function writeTime() {
     st = ("0" + s).slice(-2);
     mt = ("0" + m).slice(-2);
     ht = ("0" + h).slice(-2);
+    
     stopwatchTime.innerHTML = `${ht}:${mt}:${st}.${mlst}`;
 };
 
