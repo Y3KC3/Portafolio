@@ -47,9 +47,35 @@
     }
 }
 
+@keyframes inputConfirmAmationForMobile {
+    0% {
+        width: 0;
+        height: 18px;
+        opacity: 1;
+    }
+    100% {
+        width: 80%;
+        height: 18px;
+        opacity: 1;
+    }
+}
+
 @keyframes removeInputConfirmAmation {
     0% {
         width: 280px;
+        height: 18px;
+        opacity: 1;
+    }
+    100% {
+        width: 0;
+        height: 18px;
+        opacity: 0;  
+    }
+}
+
+@keyframes removeInputConfirmAmationForMobile {
+    0% {
+        width: 80%;
         height: 18px;
         opacity: 1;
     }

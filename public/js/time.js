@@ -60,9 +60,10 @@ const updateHours = () => {
     pYear.textContent = year;
 
     if (hours >= 12) { hours = hours - 12; ampm = 'PM' }
-    else { ampm = 'AM' };
+    else ampm = 'AM';
 
     if (hours == 0) hours = 12;
+
     if (minutes < 10) minutes = "0" + minutes;
     if (seconds < 10) seconds = "0" + seconds;
 
@@ -71,6 +72,7 @@ const updateHours = () => {
     pMinutes.textContent = minutes;
     pSeconds.textContent = seconds;
 };
+
 updateHours();
 setInterval(updateHours, 1000);
 
@@ -87,16 +89,17 @@ var ht = 0, mt = 0, st = 0, mlst = 0, mls = 0, s = 0, m = 0, h = 0;
 
 function writeTime() {
     mls++;
-    if (mls > 99) s++; mls = 0;
-    if (s > 59) m++; s = 0;
-    if (m > 59) h++; m = 0;
-    if (h > 99) h = 0;
+
+    if (mls > 99) { s++; mls = 0; };
+    if (s > 59) { m++; s = 0; };
+    if (m > 59) { h++; m = 0; };
+    if (h > 99) { h = 0; };
 
     mlst = ("0" + mls).slice(-2);
     st = ("0" + s).slice(-2);
     mt = ("0" + m).slice(-2);
     ht = ("0" + h).slice(-2);
-    
+
     stopwatchTime.innerHTML = `${ht}:${mt}:${st}.${mlst}`;
 };
 
@@ -141,20 +144,12 @@ const saveTimer = document.getElementById('saveTimer');
 const hoursOptions = document.getElementById('containerOptionsHours');
 const minutesOptions = document.getElementById('containerOptionsMinutes');
 const secondsOptions = document.getElementById('containerOptionsSeconds');
-
-///////// change
-
 const buttonDecrementHours = document.getElementById('timerHourDecrement');
 const buttonIncrementHours = document.getElementById('timerHourIncrement');
-
 const buttonDecrementMinutes = document.getElementById('timerMinuteDecrement');
 const buttonIncrementMinutes = document.getElementById('timerMinuteIncrement');
-
 const buttonDecrementSeconds = document.getElementById('timerSecondDecrement');
 const buttonIncrementSeconds = document.getElementById('timerSecondIncrement');
-
-//////////
-
 const checkbox = document.getElementById('checkbox');
 const alarm = document.getElementById('alarm');
 
@@ -179,7 +174,7 @@ btnConfiguration.addEventListener('click', () => {
     invisibleContent2.style.animation = 'opacityVisibleContent 1s forwards';
     timerOptions.style.transform = 'translateX(0)';
     if (screen.width > 1024) { timerOptions.style.animation = 'opacity 1s forwards' } 
-    else timerOptions.style.animation = 'opacity 1s forwards';
+    else { timerOptions.style.animation = 'opacity 1s forwards' };
     document.querySelector('body').style.overflow = 'hidden';
     setTimeout(() => { options.style.animation = 'opacity .6s forwards' },1100);
     setTimeout(() => { song.style.animation = 'opacity .6s forwards' },1200);
@@ -187,18 +182,16 @@ btnConfiguration.addEventListener('click', () => {
 });
 
 const exitTimerOptions = () => {
-    invisibleContent2.style.animation = 'removeOpacityVisibleContent 1s forwards';
     setTimeout(() => { options.style.animation = 'removeOpacity .3s forwards' },100);
     setTimeout(() => { song.style.animation = 'removeOpacity .3s forwards' },200);
     setTimeout(() => { buttonsOptions.style.animation = 'removeOpacity .3s forwards' },300);
     setTimeout(() => { timerOptions.style.animation = 'removeOpacity 1s forwards' },500);
     setTimeout(() => { timerOptions.style.transform = 'translateX(-3000px)' },1600);
+    invisibleContent2.style.animation = 'removeOpacityVisibleContent 1s forwards';
     setTimeout(() => { invisibleContent2.classList.add('d-none'); document.querySelector('body').style.overflowY = 'auto' },2000);
 };
 
 exit.addEventListener('click', exitTimerOptions);
-
-////////////////////change
 
 buttonDecrementHours.addEventListener('click', () => {
     if (!hoursValue == 0) {
@@ -243,12 +236,10 @@ buttonDecrementSeconds.addEventListener('click', () => {
 buttonIncrementSeconds.addEventListener('click', () => {
     if (secondsValue < 59) {
         secondsValue++;
-        if (secondsValue < 10) { secondsOptions.value = ("0" + secondsValue).slice(-2) } 
+        if (secondsValue < 10) { secondsOptions.value = ("0" + secondsValue).slice(-2)} 
         else secondsOptions.value = secondsValue;
     };
 });
-
-/////////////////////////////////
 
 checkbox.addEventListener('click', () => {
     checkbox.classList.toggle('checkboxTrue');
@@ -274,6 +265,7 @@ saveTimer.addEventListener('click', () => {
         htimer = hoursValue;
         mtimer = minutesValue;
         stimer = secondsValue;
+
         timer.innerHTML = `${htimer}:${mtimer}:${stimer}`;
     };
     exitTimerOptions();
@@ -283,11 +275,12 @@ var timerCycle, startAlarm;
 
 const startTimer = () => {
     stimer--;
+
     if (stimer < 0) stimer = 59;
-    
+
     if (stimer < 10) stimer = "0" + stimer;
     else stimer = stimer;
-   
+
     if (mtimer > 0 && stimer == 59) {
         mtimer--;
         if (mtimer < 10) mtimer = "0" + mtimer;
@@ -304,10 +297,7 @@ const startTimer = () => {
     };
 
     if (htimer == 0 && mtimer == 0 && stimer == 0) {
-        if (checkboxValidation) {
-            const activeAlarm = () => alarm.play();
-            startAlarm = setInterval(activeAlarm);
-        };
+        if (checkboxValidation) { const activeAlarm = () => alarm.play(); startAlarm = setInterval(activeAlarm) };
         buttonStartTimer.classList.remove('d-none');
         buttonPauseTimer.classList.add('d-none');
         invisibleContent2.classList.remove('d-none');
@@ -320,7 +310,7 @@ const startTimer = () => {
         setTimeout(() => { finishedTimerButton.style.animation = 'opacity .5s forwards' },1400);
         clearInterval(timerCycle);
     };
-
+    
     timer.innerHTML = `${htimer}:${mtimer}:${stimer}`;
 };
 
@@ -345,7 +335,6 @@ buttonResetTimer.addEventListener('click', () => {
     htimer = hoursValue;
     mtimer = minutesValue;
     stimer = secondsValue;
-
     timer.innerHTML = `${htimer}:${mtimer}:${stimer}`;
 });
 
@@ -358,12 +347,12 @@ finishedTimerButton.addEventListener('click', () => {
     setTimeout(() => {
         theTimerFinished.style.animation = 'removeOpacity .5s forwards';
         invisibleContent2.style.animation = 'removeOpacityVisibleContent 1s forwards';
-    }, 800);
+    },800);
     setTimeout(() => {
         theTimerFinished.style.transform = 'translateX(-2000px)';
         invisibleContent2.classList.add('d-none');
         document.querySelector('body').style.overflowY = 'auto';
-    }, 1500);
+    },1500);
     if (hoursValue < 10) hoursValue = ("0" + hoursValue).slice(-2);
     if (minutesValue < 10) minutesValue = ("0" + minutesValue).slice(-2);
     if (secondsValue < 10) secondsValue = ("0" + secondsValue).slice(-2);
