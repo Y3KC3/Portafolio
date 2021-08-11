@@ -30,7 +30,11 @@ setInterval(()=>{
                 arrowUp.style.display = 'none';
                 arrowRight.style.display = 'block';
             };
-            document.querySelector('*').style.overflowY = 'auto';
+            if (scrollYHidden) {
+                document.querySelector('*').style.overflowY = 'hidden';
+            } else {
+                document.querySelector('*').style.overflowY = 'auto';
+            };
         };
     } else {
         if (document.querySelector('body').classList.contains('background')){

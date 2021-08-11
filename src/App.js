@@ -16,6 +16,7 @@ import CollaborationDescription from './components/CollaborationDescription';
 import Calculator from './components/Calculator';
 import NightMode from './components/NightMode';
 import Store from './components/Store';
+import Share from './components/invisibleComponents/Share';
 
 class App extends Component {
   render (){
@@ -48,6 +49,7 @@ class App extends Component {
           <Store/>
           <TimerOptions/>
           <TheTimerFinished/>
+          <Share/>
         </div>
       </div>
     );

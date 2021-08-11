@@ -10,17 +10,7 @@ export default class PresentationRight extends Component {
                         <h2>Software Development</h2>
                         <div>
                             <button id="like">Me Gusta</button>
-                            <button id="toShared">Compartir</button>
-                        </div>
-                    </div>
-                    <div className="results">
-                        <div>
-                            <h1>Me Gusta: </h1>
-                            <h1>0</h1>
-                        </div>
-                        <div>
-                            <h1>Compartido: </h1>
-                            <h1>0</h1>
+                            <button id="toShared" className="active-share">Compartir</button>
                         </div>
                     </div>
                 </div>

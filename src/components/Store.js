@@ -24,7 +24,7 @@ export default class Store extends Component {
                                 
                                 <h1 className="nike">Nike</h1>
                                 <img src="./img/store/shoes/logo.png" alt="logo" className="logo"/>
-                                <button className="share"><i className="fas fa-share-alt"></i></button>
+                                <button className="share active-share"><i className="fas fa-share-alt"></i></button>
                                 
                                 <img src="./img/store/shoes/shoesBlue.png" className="shoes showShoes" alt="shoesBlue" color="blue"/>
                                 <img src="./img/store/shoes/shoesRed.png" className="shoes" alt="shoesRed" color="red"/>
@@ -84,7 +84,7 @@ export default class Store extends Component {
                                 </div>
 
                                 <h1 className="mockup">MOCKUP</h1>
-                                <button className="share"><i className="fas fa-share-alt"></i></button>
+                                <button className="share active-share"><i className="fas fa-share-alt"></i></button>
                             
                                 <img src="./img/store/shirt/whiteShirt.png" alt="whiteShirt" className="shirt showShirt" color="white"/>
                                 <img src="./img/store/shirt/blackShirt.png" alt="blackShirt" className="shirt" color="black"/>
@@ -130,7 +130,7 @@ export default class Store extends Component {
                         </div>
                         <div className="makeupStore">
                             <div className="backgroundMakeup">
-                                <button className="share"><i className="fas fa-share-alt"></i></button>
+                                <button className="share active-share"><i className="fas fa-share-alt"></i></button>
                                 
                                 <img src="./img/store/makeup/makeup.jpg" className="makeup" alt="makeup"/>
                             </div>

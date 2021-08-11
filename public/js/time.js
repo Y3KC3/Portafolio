@@ -135,7 +135,6 @@ const theTimerFinished = document.querySelector('.theTimerFinished');
 const finishedTimerIcon = document.querySelector('.theTimerFinished i');
 const finishedTimerText = document.querySelector('.theTimerFinished h4');
 const finishedTimerButton = document.getElementById('accept');
-const invisibleContent2 = document.querySelector('.invisibleContent2');
 const options = document.querySelector('.options');
 const song = document.querySelector('.song');
 const buttonsOptions = document.querySelector('.buttonsOptions');

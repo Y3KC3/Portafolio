@@ -51,11 +51,6 @@
         margin: 15px 0;
         border-radius: 10px;
     }
-
-    .results div {
-        margin: 10px 0;
-        margin-right: 15px;
-    }
 /**/
 /*PART THAT IS MISSING*/
     .containerPresentationRight2 {
@@ -546,6 +541,36 @@
         border-radius: 0;
     }
 
+    .shareLink {
+        top: initial;
+        bottom: 0;
+        transform: translateY(1000px);
+        height: 80%;
+    }
+
+    .container_share {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .logo-share, .shareExit {
+        display: none;
+    }
+
+    .sharePhoneTitle {
+        display: block;
+        text-align: center;
+        color: #aaa;
+        margin: 15px;
+    }
+
+    .control-image-share  {
+        margin: 20px 0;
+        width: 55px;
+    }
+    
     .containerPresentationRight {
         padding: 20px;
         display: none;
@@ -587,11 +612,6 @@
         font-size: 16px;
         margin: 15px 0;
         border-radius: 10px;
-    }
-
-    .results div {
-        margin: 10px 0;
-        margin-right: 15px;
     }
 
     /*PART THAT IS MISSING*/
@@ -1019,13 +1039,6 @@
 }
 
 @media (max-width: 320px){
-    .results div {
-        margin: 10px 0;
-        margin-right: 65px;
-    }
-    .results div h1 {
-        font-size: 22px;
-    }
     .clock p, #time {
         font-size: 35px;
     }

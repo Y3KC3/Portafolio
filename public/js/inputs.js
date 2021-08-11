@@ -48,7 +48,7 @@ const showData = (message, addClass, removeClass) => {
     const inputConfirmation = document.getElementById('inputConfirmation');
     inputConfirmation.classList.add(addClass);
     inputConfirmation.classList.remove(removeClass);
-    if (screen.width < 1024) inputConfirmation.style.animation = 'inputConfirmAmationForMobile 1s forwards';
+    if (screen.width < 650) inputConfirmation.style.animation = 'inputConfirmAmationForMobile 1s forwards';
     else inputConfirmation.style.animation = 'inputConfirmAmation 1s forwards';
     document.createDocumentFragment(inputConfirmation);
     const word = document.createElement('P');
@@ -56,11 +56,11 @@ const showData = (message, addClass, removeClass) => {
     setTimeout(() => {
         word.innerHTML = message;
         word.style.animation = 'opacity 1s forwards';
-    }, 800);
+    },800);
     inputConfirmation.appendChild(word);
     setTimeout(() => {
         word.style.display = 'none';
-        if (screen.width < 1024) inputConfirmation.style.animation = 'rremoveInputConfirmAmationForMobile 1s forwards';
+        if (screen.width < 650) inputConfirmation.style.animation = 'rremoveInputConfirmAmationForMobile 1s forwards';
         else inputConfirmation.style.animation = 'removeInputConfirmAmation 1s forwards';
         setTimeout(() => { word.remove() },1200);
     }, 3000);
